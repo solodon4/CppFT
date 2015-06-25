@@ -91,8 +91,8 @@
 #define __cpp_variable_templates 201304
 #endif
 
-N3669,Fixing constexpr member functions without const,various,none,,
-N3673,C++ Library Working Group Ready Issues Bristol 2013,various,none,,
+// N3669,Fixing constexpr member functions without const,various,none,,
+// N3673,C++ Library Working Group Ready Issues Bristol 2013,various,none,,
 
 
 #if !defined(__cpp_lib_constexpr_functions)
@@ -102,18 +102,18 @@ N3673,C++ Library Working Group Ready Issues Bristol 2013,various,none,,
 #endif
 
 
-#if !defined()
-// Constexpr Library Additions: chrono
-// \see N3469 section 20.11 Header <chrono>
-#define  
-#endif
+//#if !defined()
+//// Constexpr Library Additions: chrono
+//// \see N3469 section 20.11 Header <chrono>
+//#define  
+//#endif
 
 
-#if !defined()
-// Constexpr Library Additions: containers
-// \see N3470 section 23.3 Header <array>
-#define  
-#endif
+//#if !defined()
+//// Constexpr Library Additions: containers
+//// \see N3470 section 23.3 Header <array>
+//#define  
+//#endif
 
 
 #if !defined(__cpp_lib_integer_sequence)
@@ -137,7 +137,7 @@ N3673,C++ Library Working Group Ready Issues Bristol 2013,various,none,,
 #endif
 
 
-N3672,A proposal to add a utility class to represent optional objects,20.5,__has_include(<optional>),1,predefined
+//N3672,A proposal to add a utility class to represent optional objects,20.5,__has_include(<optional>),1,predefined
 
 
 #if !defined(__cpp_lib_make_unique)
@@ -187,7 +187,9 @@ N3672,A proposal to add a utility class to represent optional objects,20.5,__has
 // \see  section 21.7 Header <string>
 #define __cpp_lib_string_udls 201304
 #endif
-N3662,C++ Dynamic Arrays,"23.2; 23.3",__has_include(<dynarray>),1,predefined
+
+
+//N3662,C++ Dynamic Arrays,"23.2; 23.3",__has_include(<dynarray>),1,predefined
 
 
 #if !defined(__cpp_lib_generic_associative_lookup)
@@ -197,11 +199,11 @@ N3662,C++ Dynamic Arrays,"23.2; 23.3",__has_include(<dynarray>),1,predefined
 #endif
 
 
-#if !defined()
-// 
-// \see  section  Header <set>
-#define  
-#endif
+//#if !defined()
+//// 
+//// \see  section  Header <set>
+//#define  
+//#endif
 
 
 #if !defined(__cpp_lib_null_iterators)
@@ -232,13 +234,13 @@ N3662,C++ Dynamic Arrays,"23.2; 23.3",__has_include(<dynarray>),1,predefined
 #endif
 
 
-#if !defined()
-// 
-// \see  section  Header 
-#define  
-#endif
-Significant features of C++11,,,,,
-Doc. No.,Title,Primary Section,Macro name,Value,Header
+//#if !defined()
+//// 
+//// \see  section  Header 
+//#define  
+//#endif
+//Significant features of C++11,,,,,
+//Doc. No.,Title,Primary Section,Macro name,Value,Header
 
 
 #if !defined(__cpp_unicode_characters)
